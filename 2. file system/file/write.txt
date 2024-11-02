@@ -1,0 +1,2 @@
+hello! this is the file i created from fs module
+ this is new line of the file i created

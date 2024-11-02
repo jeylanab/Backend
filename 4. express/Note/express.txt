@@ -1,0 +1,18 @@
+
+
+# express js is unopinionated, fast and light weight nodejs framework
+      --used to create API
+      --used to create WEB ERVER
+
+
+# steps to create an express server
+   -create directory;
+   -create index.js file;
+   -initialize npm package;
+   -install express package
+        # npm install express
+        # npm install nodemon
+   - write the server application in the index file
+   - start the server by:
+                 nodemon server || nodemon index
+

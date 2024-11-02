@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- add the title to the webpage using ejs tag -->
+    <h1><%= title %></h1>
+
+    <!-- display the second in the html -->
+    <p>current seconds: <%= seconds %> </p>
+
+    <!-- now try to display the items if the second 
+      is even else only display empty space-->
+
+    <% if( seconds % 2 == 0) {%>
+     <ul>
+         <% items.forEach(fruit => { %>
+           <li><%= fruit %></li>
+         <% }) %>
+     </ul>
+
+
+    <%}
+// if the number is not even in that case only display this text inorder to tell the user to wait until the time become a even seconds
+      else {%>
+        <p>wait a moment</p>
+    <%}%>
+
+     <%- htmlContent %>    
+    
+</body>
+</html>

@@ -1,0 +1,2 @@
+# change the type of your module by inputing 
+     - "type" : "module";

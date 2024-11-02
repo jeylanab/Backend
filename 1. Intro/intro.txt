@@ -1,0 +1,20 @@
+#Node Js
+Node.js is an open source server environment
+Node.js is an open source, cross-platform runtime environment 
+that is used to run web app outside of client browser;
+
+    - it runs javascript everywhere
+
+node js uses asynchrounous programming 
+    #-which means no waiting during the content is processing do sent to client
+                    
+to open file on a server and return response/content to client 
+
+What Can Node.js Do?
+# Node.js can generate dynamic page content
+# Node.js can create, open, read, write, delete, and close files on the server
+# Node.js can collect form data
+# Node.js can add, delete, modify data in your database
+
+Node.js mainly runs on one main thread for executing code.
+# nodeJs is a single threaded; with asynchronous ablity which makes it efficient;

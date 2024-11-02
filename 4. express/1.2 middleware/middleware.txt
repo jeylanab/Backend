@@ -1,0 +1,11 @@
+// middleware is the man in the middle - using body parser together with html form
+// stand between the request sent and the server
+
+ types  # preprocessing 
+        # authentication
+        # logging
+        # error
+
+
+-body-parser = is the most commonly used middleware 
+-morgan middleware-- is used for login

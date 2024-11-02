@@ -1,0 +1,12 @@
+fs module uses to Create, Read, Write, Delete, and Rename files and directories.
+
+asynchronous - fs.readFile()
+synchronous - fs.readFileSync()
+
+       -fs.promises(), which enable async/await for cleaner code.
+
+       fs.readFile(path, encoding, callback)
+       fs.writeFile(path, data, callback)
+
+fs.mkdir(path, options, callback)
+fs.rmdir(path, callback)

@@ -1,0 +1,21 @@
+nodemon used to watch the changes on our code 
+
+#installing nodemon globally on ur machine
+  npm i nodemon -g
+#installing nodemon to your project specifically
+  npm install -D
+      #or
+  npm install --save dev
+
+#use .gitignore to hide all the node modules when clone your project
+#you can hide you api key in the env file and just write the below text inside .gitignore
+                nodemodules
+                env
+
+'script' : {
+  'start' : 'node index',
+  'dev' : 'nodemon index'
+};
+
+
+event emitter === to be studied
