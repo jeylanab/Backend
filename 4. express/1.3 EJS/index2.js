@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
         items: ['banana', 'orange', 'apple', 'avocado'],
         htmlContent: '<em>this is em text<em/>'
     };
-    
+    // this line will pass the "data" object from the index2.js to index2.ejs
     res.render('index2.ejs', data );
 })
 
