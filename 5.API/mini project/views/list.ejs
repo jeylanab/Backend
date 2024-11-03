@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/index.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>list</h1>
+    <div class="cards">
+     <% data.forEach(item => { %> 
+      <div class="movie-item">
+        <img src=<%= item.image %> alt="">
+        <div class="movie-info">
+          <h2>Title: <%= item.title %></h2>
+          <h3> Rating: <%= item.rating %> </h3>
+          <h3> Rating: <%= item.year %> </h3>
+        </div>
+      </div>
+     <% })%>
+   
+    </div>
+</body>
+</html>

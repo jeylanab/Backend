@@ -1,0 +1,22 @@
+API - 
+   #refers to application programming interface;
+
+types of API request 
+      -graphQL
+      -REST API
+      -SOAP
+
+# API is a set of rules and definitions that allows different software applications
+#  to communicate and interact with each other
+
+query parameter
+     -app.example.com/endpoint?query=value
+multiple query parameter
+     -app.example.com/endpoint?query=value&query2=value2&query3=value3
+
+# JSON - REFERS to javascript object notation;
+
+JSON to js object
+     # const data = JSON.parse(jsonData)
+JS object to JSON
+     # const jsonData = JSON.stringfy(data)

@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hwb(0 0% 100% / 0.9);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: aliceblue;
+  text-align: center;
+}
+
+h2 {
+  color: greenyellow;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  background-color: rgb(105, 238, 28);
+  color: rgb(43, 43, 43);
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  font-size: larger;
+  font-weight: 200;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.movie-item {
+  text-align: left;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+}
+img {
+  width: 300px;
+  height: 500px;
+}
