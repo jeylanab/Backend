@@ -1,1 +1,32 @@
 -EJS  is refers to #embedded javascript
+
+
+
+
+
+
+
+
+# PARTIALS AND TEMPLETING
+# to use static file in your project you can use 
+ app.use(express.static('public'))
+
+ then you have to keep all your static files in your public folder
+
+#example 
+          - public
+               -index.css
+               -image.png
+          - view
+               -nav.ejs
+                      # to include the static file you have to put this location in the href attribute
+                      /index.css
+                      /image.png
+               -home.ejs
+                      # to include the navbar on top of the home page, you can use ejs tag for importing file
+                      # <%- include('nav.ejs')%>
+               -footer.ejs
+                      # to include the navbar on top of the home page, you can use ejs tag for importing file
+                      # <%- include('nav.ejs')%>
+                 
+ 

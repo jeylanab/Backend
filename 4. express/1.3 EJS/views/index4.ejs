@@ -1,0 +1,21 @@
+<%- include('partial/header.ejs') %>
+
+<main>
+    <div>
+        
+         <%if(typeof band !== 'undefined'){%>
+           <h3> <%= band %> </h3> 
+
+         <%}
+         else{%>
+              <h3>Click the button</h3>
+        <%}%>
+
+         <form action="/submit" method="post">
+            <input type="submit" value="Enter">
+             
+         </form>
+
+    </div>
+
+</main>
