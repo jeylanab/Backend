@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+   <%if (locals.data){%>
+     <h1>Your Name Has <%= data %> Characters</h1>
+   <%}
+   else {%>
+     <h1>Enter Your Name TO See The Magic</h1>
+
+   <%}%>
+
+
+    <form action="/submit" method="post">
+       <input type="text" name = "firstname" placeholder="First Name">
+       <input type="text" name = "lastname" placeholder="Last Name">
+       <input type="submit" value="Check">
+    </form>
+</body>
+</html>

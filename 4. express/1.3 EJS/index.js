@@ -4,6 +4,8 @@ import ejs from "ejs";
 
 const app = express();
 const port = 3000;
+
+// javascript variable to get the day of a week in a form of number from 0 to 6
 var today =new Date().getDay();
 var message = ''
 
