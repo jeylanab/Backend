@@ -1,0 +1,2 @@
+# controling access to resource based on user permission
+# only authorized user can access or modify the given data
