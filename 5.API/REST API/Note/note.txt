@@ -1,0 +1,8 @@
+# REST API - is refers to representetional state transfer
+
+# what makes an API restfull? - 
+-it uses standard https methods which are :get post put patch delete
+-response is in json form
+-client and server are separate 
+-statelessness
+-url transition
