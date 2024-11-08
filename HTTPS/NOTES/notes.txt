@@ -1,0 +1,15 @@
+WHAT IS HTTP
+# it is a protocol that  is used for data communication on a web
+# language that web servers and web browsers used to communicate on the internet
+# protocol = is set of rules for transfering file on internet(image, videos, audio, video and other file formats)
+# stateless = the request of https is independent of the previous request
+# request-response model = clients send request and server send back response based on the request asked
+# has different methods = such as get, post, put, patch, delete
+
+# WEB ADDRESSED 
+# are unique code that is used to conect a user request with specific id and send them back  a response based on that values
+# addresses are uniquely identified 
+
+# DNS - domain name system
+change the ip addresses to human understandable text 
+example = example.com

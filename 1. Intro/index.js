@@ -1,3 +1,4 @@
+const { log } = require('console');
 const fs = require('fs');
 const http = require('http');
 
@@ -11,5 +12,5 @@ http.createServer((req, res) => {
 
 }).listen(8080);
 
-console.log('hello world');
+console.log('hello world'); 
 // this is how a nodejs file works under the hood
