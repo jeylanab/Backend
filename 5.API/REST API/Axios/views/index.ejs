@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(222, 222, 222);
+        text-align: center;
+        margin: 50px;
+        color: rgb(36, 66, 6);
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap; /* This ensures items wrap to the next line when they exceed the container's width */
+        gap: 10px; /* Optional: Add space between the items */
+      }
+
+      .item {
+        flex: 1 0 30%; /* This means each item will take up 30% of the container width */
+        box-sizing: border-box; /* Ensure padding and borders are included in width */
+        background-color: lightblue; /* For visual clarity */
+        padding: 20px; /* Optional: to give some padding inside the item */
+        text-align: center; /* For centering text inside the item */
+      }
+    </style>
+  </head>
+  <body>
     <h1>ROOFLY HOUSE RENTING AND SELLING SOLUTION</h1>
-</body>
+    <div class="container">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+      <div class="item">Item 4</div>
+      <div class="item">Item 5</div>
+      <div class="item">Item 5</div>
+      <div class="item">Item 6</div>
+    </div>
+
+    <form action="/submit" method="post">
+      <input type="text" name="location" placeholder="Enter Location" />
+      <input type="submit" name="Enter" />
+      <!-- <input type="text" name="location" placeholder="Enter Location"> -->
+    </form>
+    <ul>
+      <% if (Array.isArray(content) && content.length) { %> <%
+      content.forEach(element => { %>
+      <li><%= element.address || 'Address not available' %></li>
+      <li><%= element.pricing.label || 'Address not available' %></li>
+
+      <img src=<%= element.imageUris[3] || 'Address not available' %> alt="" />
+      <% }) %> <% } else { %>
+      <li>No listings available</li>
+      <% } %>
+    </ul>
+  </body>
 </html>
